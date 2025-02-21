@@ -13,7 +13,7 @@ export default defineConfig({
             app: './index.html',
          },
          output: {
-            dir: './docs',
+            dir: './dist',
             entryFileNames: 'app.js',
             assetFileNames: 'app.css',
             chunkFileNames: 'chunk.js',
