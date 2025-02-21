@@ -10,7 +10,7 @@ export default defineConfig({
       publicDir: './public',
       rollupOptions: {
          input: {
-            app: './index.html',
+            app: './public/index.html',
          },
          output: {
             dir: './dist',
